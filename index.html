@@ -6,49 +6,136 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Resumé</title>
   <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
   <div class="container">
+    <div class="row header">
+      <div class="col-12 col-md-4 photo">
+        <img class="img-fluid rounded-circle" src="img/profile.jpg" alt="Faceshot">
+      </div>
+      <div class="col-12 col-md-8">
+        <h1 class="name">Cesar Cristobal<br>Valdez Galvan</h1>
+        <h2 class="job">Computer Engineering</h2>
+      </div>
+    </div>
     <div class="row">
-      <div class="profile col s12 m4 l3">
-        <div class="photo">
-          <img class="responsive-img circle" src="img/profile.jpg" alt="Faceshot">
-        </div>
-        <div class="info">
-          <h1 class="name">Cesar Cristobal Valdez Galvan</h1>
-          <h2 class="job">Computer Engineering</h2>
-        </div>
-        <div class="about">
+      <div class="col-12 col-md-6">
+        <div class="profile">
           <h3>About me</h3>
-
+          <p>A student acquainted with desktop applications and web development.</p>
+          <p>My interests include IA, hybrid apps and video game development.</p>
         </div>
         <div class="contact">
           <h3>Contact me</h3>
-          <div class="phone"><a href="tel:+5216121532217"><i class="material-icons">contact_phone</i></a><span>612-153-2217</span></div>
+          <div class="phone"><a href="tel:+5216121532217"><i class="fas fa-phone"></i><span>612-153-2217</span></a></div>
+          <div class="address"><a href="https://goo.gl/maps/Gwosr3Zryao"><i class="fas fa-map-marker"></i><span>Guadalajara, Jalisco</span></a></div>
+          <div class="email"><a href="mailto:cesarvaldez.work@gmail.com"><i class="fas fa-envelope"></i><span>cesarvaldez.work</span></a></div>
+          <div class="github"><a href="https://github.com/MatchaFierce"><i class="fab fa-github"></i><span>MatchaFierce</span></a></div>
+          <div class="linkedin"><a href="https://www.linkedin.com/in/cesarvaldezdev"><i class="fab fa-linkedin-in"></i><span>cesarvaldezdev</span></a></div>
+          <br>
         </div>
-        div.
+        <div class="skills">
+          <h3>Skills/Qualities</h3>
+          <div class="row">
+            <div class="col-6">
+              <ul>
+                <li>C/C++</li>
+                <li>HTML/CSS</li>
+                <li>ES6 JS (Front & Back)</li>
+                <li>Python</li>
+                <li>SQL/MySQL</li>
+                <li>NoSQL</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Decision Making</li>
+                <li>Handling Criticism</li>
+                <li>Teachable</li>
+                <li>Adaptability</li>
+                <li>Emotional intelligence</li>
+                <li>Willingness to learn</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="func col s12 m8 l9">
-        <div class="row">
-          <div class="col s12 m6 l6">
-            lolo
+      <div class="col-12 col-md-6">
+        <div class="experience">
+          <h3>Experience</h3>
+          <div>
+            <b>Internship at IBM Mexico</b>
+            <p>2019 - </p>
           </div>
-          <div class="col s12 m6 l6">
-            lolo
+          <div>
+            <b>Mentor in Technovation Challenge</b>
+            <br>
+            <p>Team EDUTEC - Senior Finalist | 2017 - 2018</p>
+            <ul>
+              <li>Taught MIT App Inventor to high school girls</li>
+              <li>Co-leadered a group of five girls</li>
+              <li>Made an app for Alzheimer's caregivers</li>
+              <li>Competed in Silicon Valley</li>
+            </ul>
           </div>
+          <br>
         </div>
-        <div class="row">
-          <div class="col s12">
-
+        <div class="education">
+          <h3>Education</h3>
+          <div>
+            <b>Computer Engineering</b>
+            <br>
+            <p>University of Guadalajara | 2015 - </p>
+          </div>
+          <div>
+            <b>Full-stack Junior Web Developer</b>
+            <br>
+            <p>BEDU | 2018 - 2019</p>
+          </div>
+          <div>
+            <b>Technical Baccalaureate in Electronics</b>
+            <br>
+            <p>
+              CBTIS NO. 230 | 2012 - 2015
+              <br>
+              GPA: 4.0 (94 Percentile)
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
+      <!-- <div class="profile col-sm-12 col-md-4 col-lg-4">
+        <div class="photo">
+        </div>
+        <div class="info">
+          <h1 class="name">Cesar Cristobal<br>Valdez Galvan</h1>
+          <h2 class="job">Computer Engineering</h2>
+        </div>
+        <div class="about">
+          <h3>About me</h3>
+        </div>
+        <div class="contact">
+        </div>
+      </div>
+      <div class="func col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            lolo
+          </div>
+          <div class="col-sm12 col-md-6 col-lg-6">
+            lolo
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-sm-12">
 
+          </div>
+        </div>
+      </div> -->
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
